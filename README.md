@@ -12,7 +12,7 @@ sudo ../build/corefreqd  # starts the daemon
 ```
 
 ### Results
-![\[CPU frequency and performance metrics\]](corefreq.png)
+![\[CPU frequency and performance metrics\]](performance_output/corefreq.png)
 
 ## 2. mpstat
 The mpstat command reports processor statistics.
@@ -23,7 +23,7 @@ mpstat -P ALL 1
 ```
 
 ### Results
-![\[per-processor stats\]](mpstat.png)
+![\[per-processor stats\]](performance_output/mpstat.png)
 
 ## 3. iostat
 Iostat monitors system input/output device loading.
